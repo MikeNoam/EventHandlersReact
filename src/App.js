@@ -10,7 +10,7 @@ export default function Button () {
     //and then passed it as a prop to <button>. 
     //handleClick is an Event Handler (prop)
     //IMPORTANT: functions passed to event handlers must be passed, NOT called.
-    //Below is an example of being passed
+    //Below is an example of Event Handler being passed
     <button onClick={handleClick}>
       Click me
       </button>
